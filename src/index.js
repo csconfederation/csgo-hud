@@ -26,7 +26,6 @@ const createWindow = () => {
 	mainWindow = new BrowserWindow({
 		width: 1280,
 		height: 720,
-		alwaysOnTop: true,
 		transparent: true,
 		frame: false,
 		fullscreen: true,
@@ -36,7 +35,7 @@ const createWindow = () => {
 			preload: MAIN_PRELOAD_WEBPACK_ENTRY,
 		},
 	})
-
+	mainWindow.setAlwaysOnTop(true, "screen-saver")
 	mainWindow.on('closed', () => app.quit())
 	mainWindow.setIgnoreMouseEvents(true)
 	mainWindow.loadURL(MAIN_WEBPACK_ENTRY + '#hud')
