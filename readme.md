@@ -10,7 +10,7 @@ No pre-built binaries or installers (yet), so you'll have to do everything yours
 
 1. Clone the repository.
 2. Install [npm](https://nodejs.org/en/) & [git](https://git-scm.com/downloads)
-3. Navigate to your files (mine is saved in a folder in documents, so my command is `cd .\Documents\GitHub\csgo-hud\`, look up windows command prompt commands if you need help)
+3. CLONE THE REPO. Navigate to your files (mine is saved in a folder in documents, so my command is `cd .\Documents\GitHub\csgo-hud\`, look up windows command prompt commands if you need help)
 4. Install yarn through `npm install --global yarn`
 5. Install dependencies: `yarn install`.
 6. Copy `gamestate_integration_drweissbrot_hud.cfg` into your CS:GO `cfg` directory, normally `C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg`.
