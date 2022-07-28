@@ -41,15 +41,15 @@ const createWindow = () => {
 	mainWindow.loadURL(MAIN_WEBPACK_ENTRY + '#hud')
 
 	registerShortcutToImpulse('F5', 'playPreMatchIntro')
-	registerShortcutToImpulse('Shift+F5', 'cancelPreMatchIntro')
+	// registerShortcutToImpulse('Shift+F5', 'cancelPreMatchIntro')
 
-	registerShortcutToImpulse('F6', 'playPostMatchOutro')
-	registerShortcutToImpulse('Shift+F6', 'cancelPostMatchOutro')
+	// registerShortcutToImpulse('F6', 'playPostMatchOutro')
+	// registerShortcutToImpulse('Shift+F6', 'cancelPostMatchOutro')
 
-	registerShortcutToImpulse('F7', 'playTacticalTimeoutMusic')
-	registerShortcutToImpulse('Shift+F7', 'cancelTacticalTimeoutMusic')
+	// registerShortcutToImpulse('F7', 'playTacticalTimeoutMusic')
+	// registerShortcutToImpulse('Shift+F7', 'cancelTacticalTimeoutMusic')
 
-	registerShortcutToImpulse('F8', 'recalculateAdr')
+	// registerShortcutToImpulse('F8', 'recalculateAdr')
 
 	configWindow = new BrowserWindow({
 		width: 1280,

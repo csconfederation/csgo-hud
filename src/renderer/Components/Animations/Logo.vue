@@ -6,10 +6,10 @@
 				Global Offensive
 			</div>
 
-			<img class="wheelchair-man" :src="require('../../../img/wheelchair-man/orange.svg')" alt="">
+			<img class="CSC" :src="require('../../../img/csc/csc-logo.png')" alt="">
 
-			<div class="paralympics">
-				Paralympics
+			<div class="Counter-Strike Confederation">
+				Counter-Strike Confederation
 			</div>
 
 			<div v-if="seriesName.length === 1 || seriesName.length === 3" class="meta">

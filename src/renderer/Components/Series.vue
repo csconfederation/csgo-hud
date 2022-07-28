@@ -36,6 +36,12 @@
 			</div>
 		</div>
 	</div>
+	<div v-else-if="series.length == 1" :class="['series', { '--active': active }]">
+		<RoundGraph directionalSides="directionalSides" />
+	</div>
+
+
+
 </template>
 
 <script>
