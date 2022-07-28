@@ -9,7 +9,7 @@ This is a custom spectator HUD for Counter-Strike: Global Offensive.
 No pre-built binaries or installers (yet), so you'll have to do everything yourself.
 
 1. Clone the repository.
-2. Install [npm](https://nodejs.org/en/) & [git](https://git-scm.com/downloads)
+2. Install [npm LTS, NOT CURRENT VERSION](https://nodejs.org/en/) & [git](https://git-scm.com/downloads)
 3. CLONE THE REPO. Navigate to your files (mine is saved in a folder in documents, so my command is `cd .\Documents\GitHub\csgo-hud\`, look up windows command prompt commands if you need help)
 4. Install yarn through `npm install --global yarn`
 5. Install dependencies: `yarn install`.
