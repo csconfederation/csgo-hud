@@ -23,7 +23,15 @@
 	}
 
 	.fill {
-		teamBackground()
+		 
+		&.--ct {
+			background rgba($ct, 1)
+		}
+
+		&.--t {
+			background rgba($bomb, 1)
+	}
+
 		height .6rem
 
 		&.--planting {
