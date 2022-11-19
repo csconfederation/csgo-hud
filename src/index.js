@@ -1,4 +1,4 @@
-const { app, BrowserWindow, dialog, globalShortcut, Main, session } = require('electron')
+const { app, BrowserWindow, dialog, globalShortcut, ipcMain, session } = require('electron')
 const path = require('path')
 
 const Server = require('./server')
