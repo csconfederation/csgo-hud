@@ -175,6 +175,9 @@ export default {
 	},
 
 	de_anubis: {
+		simpleradar: true,
+		transparent: true,
+		
 		pos_x: -2796,
 		pos_y: 3328,
 		scale: 5.22,
