@@ -610,6 +610,25 @@ export default {
 		scale: 5.5,
 	},
 
+	de_51_vertigo: {
+		simpleradar: true,
+		transparent: true,
+
+		pos_x: -3168,
+		pos_y: 1762,
+		scale: 4,
+
+		sections: {
+			default: { max: 20000, min: 11700 },
+			lower: { max: 11700, min: -10000 },
+		},
+
+		inset_left: 0.1,
+		inset_top: 0.1,
+		inset_right: 0.2,
+		inset_bottom: 0.15,
+	},
+
 	de_vertigo: {
 		simpleradar: true,
 		transparent: true,

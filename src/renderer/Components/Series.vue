@@ -14,7 +14,9 @@
 			</div>
 
 			<div class="inner">
-				<div :class="`map --${match.map}`"></div>
+				<div :class="`map --${match.map}`">
+					<img ref="image" :src="matchMap(match.map)" height=160vh width=100% style="object-fit: cover;">
+				</div>
 
 				<div
 					v-if="match.scoreLeft > match.scoreRight && teams[0].flag"
@@ -36,12 +38,6 @@
 			</div>
 		</div>
 	</div>
-	<div v-else-if="series.length == 1" :class="['series', { '--active': active }]">
-		<RoundGraph directionalSides="directionalSides" />
-	</div>
-
-
-
 </template>
 
 <script>
@@ -66,6 +62,10 @@ export default {
 			'timers',
 		]),
 
+		mapName() {
+			return this.map.name.replace(/^.*\//, '')
+		},
+
 		active() {
 			return this.map.phase === 'intermission'
 				|| ['paused', 'timeout_ct', 'timeout_t', 'freezetime'].includes(this.timers.phase)
@@ -77,11 +77,19 @@ export default {
 				this.map[`team_${this.directionalSides[1]}`],
 			]
 		},
+
+
+
+		
 	},
 
 	methods: {
 		flagStyle,
 		formatMapName,
+		matchMap(map) {
+			console.log(map)
+			return require(`../../img/map/${map.toLowerCase()}.png`).default
+		},
 	},
 }
 </script>
