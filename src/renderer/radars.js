@@ -103,6 +103,18 @@ export default {
 		scale: 10,
 	},
 
+	cs_insertion2: {
+		pos_x: -5129.000000,
+		pos_y: 3136.000000,
+		scale: 9.00,
+		zoom: 1.6,
+
+		sections: {
+			default: { max: 6000, min: -700},
+			lower: { max: -700, min: -10000}
+		},
+	},
+
 	cs_italy: {
 		pos_x: -2647,
 		pos_y: 2592,
@@ -597,6 +609,14 @@ export default {
 
 	de_train: {
 		simpleradar: true,
+		transparent: true,
+
+		pos_x: -2477,
+		pos_y: 2392,
+		scale: 4.7,
+	},
+
+	de_train_cyberpunk: {
 		transparent: true,
 
 		pos_x: -2477,
