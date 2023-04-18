@@ -357,6 +357,12 @@ export default {
 		scale: 6,
 	},
 
+	de_fire: {
+		pos_x: -2583,
+		pos_y: 3212,
+		scale: 5.5,
+	},
+
 	de_guard: {
 		pos_x: -1768,
 		pos_y: 1648,
