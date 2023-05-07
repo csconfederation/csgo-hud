@@ -103,6 +103,18 @@ export default {
 		scale: 10,
 	},
 
+	cs_insertion2: {
+		pos_x: -5129.000000,
+		pos_y: 3136.000000,
+		scale: 9.00,
+		zoom: 1.6,
+
+		sections: {
+			default: { max: 6000, min: -700},
+			lower: { max: -700, min: -10000}
+		},
+	},
+
 	cs_italy: {
 		pos_x: -2647,
 		pos_y: 2592,
@@ -343,6 +355,12 @@ export default {
 		pos_x: -90,
 		pos_y: 5659,
 		scale: 6,
+	},
+
+	de_fire: {
+		pos_x: -2583,
+		pos_y: 3212,
+		scale: 5.5,
 	},
 
 	de_guard: {
@@ -604,10 +622,37 @@ export default {
 		scale: 4.7,
 	},
 
+	de_train_cyberpunk: {
+		transparent: true,
+
+		pos_x: -2477,
+		pos_y: 2392,
+		scale: 4.7,
+	},
+
 	de_tulip: {
 		pos_x: 3402,
 		pos_y: 5583,
 		scale: 5.5,
+	},
+
+	de_51_vertigo: {
+		simpleradar: true,
+		transparent: true,
+
+		pos_x: -3168,
+		pos_y: 1762,
+		scale: 4,
+
+		sections: {
+			default: { max: 20000, min: 11700 },
+			lower: { max: 11700, min: -10000 },
+		},
+
+		inset_left: 0.1,
+		inset_top: 0.1,
+		inset_right: 0.2,
+		inset_bottom: 0.15,
 	},
 
 	de_vertigo: {
